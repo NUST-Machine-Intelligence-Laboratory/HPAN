@@ -11,7 +11,7 @@ The architecture of our Holistic Prototype Attention Network:
 ## Environment
 
 ```sh
-git clone git@github.com:HPAN-AAAI2023/HPAN.git
+git clone git@github.com:HPAN-FSVOS/HPAN.git
 cd HPAN
 conda create -n HPAN python=3.9
 conda activate HPAN
@@ -62,7 +62,7 @@ CUDA_VISIBLE_DEVICES=0 python train_HPAN.py --batch_size 8 --num_workers 8 --gro
 CUDA_VISIBLE_DEVICES=0 python test_HPAN.py --group 1 --trainid 0  --test_num 1 --finetune_idx 1 --test_best --lr 2e-5 --with_prior_mask --with_proto_attn --proto_with_self_attn --proto_per_frame 5 --with_proto_loss
 ```
 
-You can download our pretrained [model](https://github.com/HPAN-AAAI2023/HPAN/releases/download/pretrained_model/workdir.zip) to test.
+You can download our pretrained [model](https://github.com/HPAN-FSVOS/HPAN/releases/download/pretrained_model/workdir.zip) to test.
 
 ### Result
 
