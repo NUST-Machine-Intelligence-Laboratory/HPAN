@@ -1,0 +1,7 @@
+opencv-python
+cython 
+easydict 
+imgaug 
+flake8 
+tqdm
+thop
