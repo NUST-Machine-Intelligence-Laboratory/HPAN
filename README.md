@@ -6,7 +6,7 @@ This code is for the paper "Holistic Prototype Attention Network for Few-Shot Vi
 
 The architecture of our Holistic Prototype Attention Network:
 
-![arch](img/HPAN_arch.png)
+![arch](img/HPAN_arch.jpg)
 
 ## Environment
 
